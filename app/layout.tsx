@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Nunito } from 'next/font/google';
 import StyledComponentsRegistry from './lib/registry';
+import Footer from './components/common/footer';
 
 const nunito = Nunito({ subsets: ['latin'] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={nunito.className}>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <Footer />
       </body>
     </html>
   );

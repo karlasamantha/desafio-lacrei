@@ -1,8 +1,31 @@
 :root {
-  --max-width: 1440px;
+  --max-width: 1366px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+  /* Colors */
+  --primary-green: #018762;
+  --secondary-green: #EEEEEE;
+  --tertiary-green: #B0E0D3;
+  --default-black: #1F1F1F;
+  --default-gray: #515151;
+  --white: #FFFFFF;
+  --shadow-color: rgba(0, 0, 0, 0.25);
+
+  /* Typography */
+  --x-large-size: 48px;
+  --large-size: 32px;
+  --medium-size: 24px;
+  --small-size: 18px;
+  --default-size: 16px;
+  --x-small-size: 12px;
+
+  /* Spacing */
+  --x-large-margin: 64px;
+  --large-margin: 40px;
+  --medium-margin: 32px;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,4 +42,5 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: var(--white);
 }
