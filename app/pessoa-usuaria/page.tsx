@@ -1,11 +1,9 @@
 'use client';
 
-import { Heading, Container } from './styles';
-
 export default function PessoaUsuariaPage() {
   return (
-    <Container>
-      <Heading>Pessoa Usuária</Heading>
-    </Container>
+    <div>
+      <h1>Pessoa Usuária</h1>
+    </div>
   );
 }

@@ -6,29 +6,29 @@
 
   /* Colors */
   --primary-green: #018762;
-  --secondary-green: #EEEEEE;
-  --tertiary-green: #B0E0D3;
+  --secondary-green: #B0E0D3;
   --default-black: #1F1F1F;
-  --default-gray: #515151;
+  --primary-gray: #515151;
+  --secondary-gray: #EEEEEE;
   --white: #FFFFFF;
   --shadow-color: rgba(0, 0, 0, 0.25);
 
   /* Typography */
-  --x-large-size: 48px;
-  --large-size: 32px;
-  --medium-size: 24px;
-  --small-size: 18px;
-  --default-size: 16px;
-  --x-small-size: 12px;
+  --xl-large-size: 3rem;
+  --large-size: 2rem;
+  --medium-size: 1.5rem;
+  --small-size: 1.125rem;
+  --default-size: 1rem;
+  --x-small-size: 0.75rem;
 
   /* Spacing */
-  --x-large-margin: 64px;
-  --large-margin: 40px;
-  --medium-margin: 32px;
-
-}
-
-@media (prefers-color-scheme: dark) {
+  --xxl-large: 4rem;
+  --x-large: 2.5rem;
+  --large: 2rem;
+  --medium: 1.5rem;
+  --base: 1rem;
+  --small: 0.5rem;
+  --x-small: 0.25rem;
 
 }
 
