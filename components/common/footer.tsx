@@ -3,9 +3,9 @@
 import FacebookIcon from '../icons/facebook-icon';
 import InstagramIcon from '../icons/instagram-icon';
 import LinkedinIcon from '../icons/linkedin-icon';
-import { StyledFooter, Nav, StyledList, SignedText } from '@/app/styles/footer';
+import { StyledFooter, Nav, StyledList, SignedText } from '@/styles/footer';
 import NavLink from './nav-link';
-import { PATHS } from '@/app/utils/constants';
+import { PATHS } from '@/utils/constants';
 
 export default function Footer() {
   return (

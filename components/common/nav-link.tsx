@@ -1,7 +1,7 @@
 'use client';
 import { usePathname } from 'next/navigation';
-import { StyledLink } from '@/app/styles/nav-link';
-import { NavLink } from '@/app/types';
+import { StyledLink } from '@/styles/nav-link';
+import { NavLink } from '@/types';
 
 export default function NavLink({ href, label }: NavLink) {
   const pathname = usePathname();

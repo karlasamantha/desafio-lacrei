@@ -10,6 +10,12 @@ export const StyledHeader = styled.header`
   padding: var(--small) var(--xxl-large);
   font-weight: 700;
   background-color: var(--secondary-gray);
+
+  @media (max-width: 520px) {
+    flex-direction: column;
+    padding: var(--small) var(--base);
+    align-items: center;
+  }
 `;
 
 export const LogoLink = styled(Link)`
@@ -31,10 +37,5 @@ export const Nav = styled.nav`
 
   @media (max-width: 520px) {
     gap: var(--base);
-  }
-`;
-
-export const NavItem = styled(NavLink)`
-  &:hover {
   }
 `;
