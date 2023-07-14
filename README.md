@@ -2,6 +2,8 @@
 
 ## Link
 
+https://desafio-lacrei-nspq.vercel.app/
+
 ## Desenvolvimento local
 
 Para rodar a aplicação em modo dev, usar os comandos seguintes:
