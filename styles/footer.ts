@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const StyledFooter = styled.footer`
   border-top: 1px solid var(--secondary-green);
-  margin: 0 var(--x-large);
+  margin: 0 var(--xxl-large);
+  padding-bottom: var(--base);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
