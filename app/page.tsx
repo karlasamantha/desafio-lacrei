@@ -1,16 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import {
-  Main,
-  InfoContainer,
-  H1,
-  Text,
-  LinksContainer,
-  PrimaryLink,
-  SecondaryLink,
-  ImageContainer,
-} from '@/styles/home';
+import { LinksContainer, PrimaryLink, SecondaryLink } from '@/styles/home';
+import { Main, InfoContainer, H1, Text, ImageContainer } from '@/styles/common';
 
 export default function Home() {
   return (
