@@ -10,9 +10,17 @@ export default function Header() {
       <LogoLink href={PATHS.home}>Lacrei</LogoLink>
 
       <Nav>
-        <NavLink href={PATHS.home} label="Home" />
-        <NavLink href={PATHS.pessoaUsuaria} label="Pessoa Usuária" />
-        <NavLink href={PATHS.profissional} label="Profissional" />
+        <NavLink isHeaderNav={true} href={PATHS.home} label="Home" />
+        <NavLink
+          isHeaderNav={true}
+          href={PATHS.pessoaUsuaria}
+          label="Pessoa Usuária"
+        />
+        <NavLink
+          isHeaderNav={true}
+          href={PATHS.profissional}
+          label="Profissional"
+        />
       </Nav>
     </StyledHeader>
   );

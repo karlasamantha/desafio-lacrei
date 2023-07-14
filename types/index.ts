@@ -6,4 +6,5 @@ export type Icon = {
 export type NavLink = {
   href: string;
   label: string;
+  isHeaderNav?: boolean;
 };
