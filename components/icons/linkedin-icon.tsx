@@ -1,5 +1,5 @@
 'use client';
-import { Icon } from '@/app/types';
+import { Icon } from '@/types';
 
 export default function LinkedinIcon({ stroke, size = '32' }: Icon) {
   return (

@@ -1,4 +1,4 @@
-import { Icon } from '@/app/types';
+import { Icon } from '@/types';
 
 export default function FacebookIcon({ stroke, size = '32' }: Icon) {
   return (
