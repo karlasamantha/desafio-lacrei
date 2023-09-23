@@ -2,9 +2,6 @@
 
 Este repositório serve como candidatura à possibilidade de atuar como voluntária no time da Lacrei Saúde.
 
-## Link
-
-https://desafio-lacrei-nspq.vercel.app/
 
 ## Desenvolvimento local
 
